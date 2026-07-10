@@ -41,7 +41,7 @@ export const uploadCsv = async (req: Request, res: Response): Promise<void> => {
     });
   } catch (error) {
     logger.error(error);
-
+    
     res.status(500).json({
       success: false,
       message: "Failed to parse CSV",
