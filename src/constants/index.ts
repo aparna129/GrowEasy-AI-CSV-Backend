@@ -1,0 +1,1 @@
+export const AI_BATCH_SIZE = 50;
